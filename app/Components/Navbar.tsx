@@ -3,7 +3,7 @@ import React from "react";
 
 function Navbar() {
 	return (
-		<div className="lg:h-[80px] bg-transparent flex justify-between items-center px-16">
+		<div className="lg:h-[80px] bg-transparent flex justify-between items-center px-16 text-white">
 			<div>Logo</div>
             <div className="flex gap-8 text-sm">
                 <Link href="#">EVENTS</Link>
