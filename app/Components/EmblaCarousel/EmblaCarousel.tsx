@@ -102,7 +102,7 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
 			.on("reInit", setTweenFactor)
 			.on("reInit", tweenScale)
 			.on("scroll", tweenScale);
-	}, [emblaApi, tweenScale]);
+	}, [emblaApi, tweenScale, setTweenNodes, setTweenFactor]);
 
 	return (
 		<div className="embla">

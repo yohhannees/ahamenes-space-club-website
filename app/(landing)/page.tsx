@@ -22,15 +22,15 @@ export default function Home() {
 			</div>
 			<div className="w-full flex justify-center">
 				<div className="absolute bottom-0 flex gap-4 pl-1">
-					<Image src="/assets/Fire.svg" width={90} height={90} />
-					<Image src="/assets/Fire.svg" width={90} height={90} />
+					<Image src="/assets/Fire.svg" width={90} height={90} alt="rocket parts"/>
+					<Image src="/assets/Fire.svg" width={90} height={90} alt="rocket parts"/>
 				</div>
 				<div className="absolute">
-					<Image src="/assets/Rocket.svg" width={200} height={200} />
+					<Image src="/assets/Rocket.svg" width={200} height={200} alt="rocket parts"/>
 				</div>
 				<div className="absolute bottom-0 flex gap-20">
-					<Image src="/assets/smokeLeft.svg" width={440} height={440} />
-					<Image src="/assets/smokeRight.svg" width={440} height={440} />
+					<Image src="/assets/smokeLeft.svg" width={440} height={440} alt="rocket parts"/>
+					<Image src="/assets/smokeRight.svg" width={440} height={440} alt="rocket parts"/>
 				</div>
 			</div>
 			<div className="h-[200px] text-2xl mt-[450px] flex-row items-center text-center justify-center text-white">
