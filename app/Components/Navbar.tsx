@@ -2,6 +2,7 @@ import Link from "next/link";
 import React from "react";
 
 function Navbar() {
+    // THis navbar is a placeholder untill the actual navbar is submited
 	return (
 		<div className="lg:h-[80px] bg-transparent flex justify-between items-center px-16 text-white">
 			<div>Logo</div>
