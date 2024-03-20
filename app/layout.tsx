@@ -18,7 +18,7 @@ export default function RootLayout({
 	// " bg-main-background-image bg-cover bg-fixed h-screen ";
 	return (
 		<html lang="en">
-			<body className={[monserat.className, " bg-black no-scrollbar"].join("")}>
+			<body className={[monserat.className, " bg-black no-scrollbar overflow-y-scroll overflow-x-hidden"].join("")}>
 				{/* <div className="h-full bg-black bg-opacity-70"> */}
 				<div className="h-full bg-main-background-image bg-cover bg-fixed ">
 					<div className="h-full bg-black bg-opacity-70">
