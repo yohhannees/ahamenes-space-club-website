@@ -84,6 +84,13 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
 					const scale = numberWithinRange(tweenValue, 0, 1).toString();
 					const tweenNode = tweenNodes.current[slideIndex];
 					tweenNode.style.transform = `scale(${scale})`;
+					const isMiddle = Number(scale) >= 0.9; // Adjust threshold as needed
+
+					if (isMiddle) {
+						tweenNode.style.zIndex = "100%";
+					} else {
+						tweenNode.style.opacity = "90%";
+					}
 				});
 			});
 		},
@@ -129,18 +136,6 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
 					<PrevButton onClick={onPrevButtonClick} disabled={prevBtnDisabled} />
 					<NextButton onClick={onNextButtonClick} disabled={nextBtnDisabled} />
 				</div>
-
-				{/* <div className="embla__dots">
-					{scrollSnaps.map((_, index) => (
-						<DotButton
-							key={index}
-							onClick={() => onDotButtonClick(index)}
-							className={"embla__dot".concat(
-								index === selectedIndex ? " embla__dot--selected" : ""
-							)}
-						/>
-					))}
-				</div> */}
 			</div>
 		</div>
 	);

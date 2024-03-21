@@ -8,7 +8,7 @@ function Navbar() {
 			<div>Logo</div>
             <div className="flex gap-8 text-sm">
                 <Link href="#">EVENTS</Link>
-                <Link href="#">ABOUT US</Link>
+                <Link href="/about_us">ABOUT US</Link>
                 <Link href="#">GALLERY & MEDIA</Link>
                 <Link href="#">CLUB WEBSITE</Link>
                 <Link href="#">TEAM</Link>
