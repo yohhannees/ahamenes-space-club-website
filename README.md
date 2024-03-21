@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Ahamenes Space Club Website
 
-## Getting Started
+Welcome to the official repository for the Ahamenes Space Club website, developed by students from Addis Ababa Science and Technology University! 🚀🌌
 
-First, run the development server:
+## About the Club
+The Ahamenes Space Club is a student-led organization dedicated to promoting and exploring the wonders of space and astronomy. Our mission is to inspire and educate students about the vast universe and foster a passion for space sciences.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Project Overview
+This website serves as the online platform for the Ahamenes Space Club, providing information about our activities, events, projects, and more. It is designed to be informative, engaging, and visually appealing.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Key Features
+- **Upcoming Events:** Stay up-to-date with the latest events, workshops, and stargazing sessions organized by the Ahamenes Space Club.
+- **Projects Showcase:** Explore the innovative projects developed by our talented members, ranging from rocketry to satellite engineering.
+- **Educational Resources:** Access a curated collection of resources, articles, and videos to expand your knowledge about astronomy and space sciences.
+- **Member Profiles:** Get to know our passionate and talented club members who are driving the exploration of space forward.
+- **Contact Us:** Reach out to us directly for inquiries, collaborations, or any space-related questions you may have.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Technologies Used
+- Next.js
+- Tailwind CSS
+- Ant Design
+- Embla Carousel
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Get Involved
+We encourage everyone with an interest in space and astronomy to join us on this exciting journey! Whether you're a student, faculty member, or space enthusiast, there's a place for you in the Ahamenes Space Club. Get involved by attending our events, participating in projects, or even contributing to the development of this website. Together, let's reach for the stars! ✨🌟
 
-## Learn More
+## Project Team
+- John Doe - Project Lead  
+- Jane Smith - Design and Front-end Development
+- Michael Johnson - Back-end Development
+- Sarah Lee - Content Writing and Management
 
-To learn more about Next.js, take a look at the following resources:
+## How to Contribute
+We welcome contributions from anyone who would like to enhance the Ahamenes Space Club website. If you have ideas, bug fixes, or new features to suggest, please feel free to submit a pull request. We appreciate your support in making this website even better!
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contact Us
+For any inquiries, feedback, or collaboration opportunities, please reach out to us:
+- Email: ahamenes.spaceclub@example.com
+- Website: [www.ahamenes.spaceclub.example](http://www.ahamenes.spaceclub.example)
+- Follow us on Twitter: [@AhamenesSpaceClub](https://twitter.com/AhamenesSpaceClub)
+- Find us on Instagram: [@ahamenes.spaceclub](https://www.instagram.com/ahamenes.spaceclub)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Let's explore the mysteries of the universe together! 🌠🪐✨
