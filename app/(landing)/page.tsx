@@ -3,14 +3,6 @@ import { motion, scroll, useMotionValueEvent, useScroll } from "framer-motion";
 import Image from "next/image";
 import EmblaCarousel from "../Components/EmblaCarousel/EmblaCarousel";
 import { EmblaOptionsType } from "embla-carousel";
-import {
-	Carousel,
-	CarouselContent,
-	CarouselItem,
-	CarouselNext,
-	CarouselPrevious,
-} from "@/components/ui/carousel";
-import { Card, CardContent } from "@/components/ui/card";
 import Autoplay from "embla-carousel-autoplay";
 import { Alfa_Slab_One, Inter } from "next/font/google";
 import { cn } from "@/lib/utils";
@@ -162,7 +154,8 @@ export default function Home() {
 				</div>
 				<div className="py-14">
 					<div className="text-white">
-						<EmblaCarousel
+						{/* 84.1 59.4 */}
+						{/* <EmblaCarousel
 							slides={[
 								"/pictures/carouselPictures/event1.jpg",
 								"/pictures/carouselPictures/event2.jpg",
@@ -171,7 +164,7 @@ export default function Home() {
 								"/pictures/carouselPictures/event5.jpg",
 							]}
 							options={OPTIONS}
-						/>
+						/> */}
 					</div>
 				</div>
 			</div>
